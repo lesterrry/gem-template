@@ -11,6 +11,16 @@ require 'test_helper'
 # Tests this
 class ThisDefaultTest < Minitest::Test
 	def test
-		assert_equal a b
+		strings = [
+			[
+				%(1),
+				%(1)
+			],
+			[
+				%(1),
+				%(1)
+			]
+		]
+		assert_string_array strings
 	end
 end
