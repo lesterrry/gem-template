@@ -1,3 +1,1 @@
-## In this update:
-- Added formatting options
-- Security improvements
+## Initial release

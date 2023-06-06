@@ -18,11 +18,3 @@ end
 desc 'Run all tests'
 task default: :test
 
-Rake::TestTask.new(:bench) do |t|
-	t.libs << 'test'
-	t.libs << 'lib'
-	t.test_files = FileList['test/**/*_bench_test.rb']
-end
-
-desc 'Run benchmark'
-task :bench

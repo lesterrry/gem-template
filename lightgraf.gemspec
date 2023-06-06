@@ -2,19 +2,19 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'lightgraf/version'
+require 'this/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'lightgraf'
-  spec.version       = Lightgraf::VERSION
+  spec.name          = 'this'
+  spec.version       = This::VERSION
   spec.authors       = ['Aydar N.']
   spec.email         = ['me@aydar.media']
 
   spec.required_ruby_version = '>= 2.6.3'
 
-  spec.summary       = 'Lightweight typography helper for Russian language'
-  spec.description   = 'Lightgraf is a lightweight typography tool intended for use in Rails primarily with Russian. Formats quotes, hyphens and whitespaces.'
-  spec.homepage      = 'https://rubygems.org/gems/lightgraf'
+  spec.summary       = 'Something'
+  spec.description   = 'Something'
+  spec.homepage      = 'https://rubygems.org/gems/this'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
